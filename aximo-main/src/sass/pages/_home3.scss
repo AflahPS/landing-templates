@@ -1,0 +1,31 @@
+.aximo-content-thumb{
+  position: relative;
+  @include max(991px) {
+    margin-bottom: 40px;
+  }
+}
+
+.aximo-content{
+  &-thumb{
+    &.border-radius{
+      img{
+        border-radius: 20px;
+      }
+    }
+    &-wrap{
+      position: relative;
+    }
+  }
+  
+  &-thumb2{
+    position: relative;
+    border-radius: 300px 300px 0 0;
+    overflow: hidden;
+    border: 1px solid var(--heading-color);
+    @include max(991px) {
+      margin-bottom: 40px;
+    }
+  }
+  
+}
+

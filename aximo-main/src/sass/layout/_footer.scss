@@ -1,0 +1,389 @@
+.aximo-footer-top{
+  .aximo-default-content {
+    @include max(991px) {
+      margin: 0 auto;
+    }
+    h2{
+      @include max(991px) {
+        max-width: 470px;
+        margin: 0 auto 15px;
+      }
+    }
+}
+
+}
+
+.aximo-footer-bottom{
+  padding: 35px 0;
+  border-top: 1px solid #333;
+  @include max(991px) {
+    padding: 30px 0;
+  }
+  &.two{
+    border-top: 1px solid #E6E6E6;
+  }
+  &.three{
+    border-top: 1px solid #E6E6E6;
+  }
+  &.four{
+    border-top: 1px solid #302F43;
+  }
+  &.five{
+    border-top: 1px solid #E6E6E6;
+  }
+  &.seven{
+    border-top: 1px solid rgba(11, 16, 64, 0.1);
+  }
+  &.eight{
+    border-top: 1px solid rgba(252, 249, 240, 0.2);
+  }
+  
+}
+.aximo-footer-logo{
+  @include max(991px) {
+    text-align: center;
+    margin-bottom: 24px;
+  }
+}
+.aximo-copywright{
+  &.one{
+    text-align: right;
+    p{
+      color: #999;
+    }
+  }  
+  &.two{
+    p{
+      color: var(--heading-color2);
+    }
+  }
+  &.three{
+    p{
+      color: var(--heading-color);
+      font-weight: 600;
+    }
+    @include max(1199px) {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+  }
+  &.four{
+    p{
+      color: var(--light-color3);
+    }
+  }
+  &.five{
+    p{
+      color: #666;
+    }
+  }
+  &.seven{
+    p{
+      color: var(--heading-color6);
+    }
+  }
+  &.eight{
+    text-align: right;
+    p{
+      color: var(--light-color7);
+    }
+  }  
+  @include max(991px) {
+    width: 100%;
+    text-align: center!important;
+  }
+}
+
+
+
+.aximo-hero-shape.aximo-footer-shape{
+  bottom: 10%;
+}
+// End footer one
+
+
+// footer two
+.aximo-footer{
+  &-section2{
+    background-size: cover;
+    background-position: center center;
+  }
+  &-textarea{
+    @include max(1199px) {
+      max-width: 600px;
+      margin-bottom: 40px;
+    }
+    img{
+      margin-bottom: 30px;
+    }
+    p{
+      font-size: 21px;
+    }
+  }
+  &-title{
+    p{
+      font-size: 21px;
+      margin-bottom: 25px;
+      font-weight: 600;
+      color: var(--heading-color2);
+      @include max(767px) {
+        margin-bottom: 17px;
+      }
+    }
+    &.light-one{
+      p{
+        color: var(--light-color3);
+      }
+    }
+    &.light-two{
+      p{
+        color: var(--light-color5);
+      }
+    }
+  }
+  &-menu{
+    @include max(767px) {
+      margin-bottom: 40px;
+    }
+    ul{
+      li{
+        margin: 14px 0;
+        &:first-child{
+          margin-top: 0;
+        }
+        &:last-child{
+          margin-bottom: 0;
+        }
+        a{
+          color: #2C2C2C;
+          font-size: 21px;
+          line-height: 30px;
+          transition: all 0.4s;
+          &:hover{
+            color: var(--orange-color);
+          }
+        }
+      }
+    }
+    &.light-one{
+      ul{
+        li{
+          a{
+            color: var(--light-color3);
+            &:hover{
+              color: var(--orange-color2);
+            }
+          }
+        }
+      }
+    }
+    &.light-two{
+      ul{
+        li{
+          a{
+            color: var(--light-color5);
+          }
+        }
+      }
+    }
+    &.extar-margin{
+      margin-left: 50px;
+      @include max(1199px) {
+        margin-left: 0;
+      }
+    }
+  }
+}
+
+
+
+.aximo-footer-top2 {
+  padding: 100px 0;
+  @include max(767px) {
+    padding: 80px 0;
+  }
+}
+.aximo-footer-menu2{
+  text-align: right;
+  @include max(1199px) {
+    text-align: center;
+  }
+  ul{
+    li{
+      display: inline-block;
+      margin: 0 20px;
+      @include max(767px) {
+        margin: 0 10px;
+      }
+      &:first-child{
+        margin-left: 0;
+      }
+      &:last-child{
+        margin-right: 0;
+      }
+      a{
+        font-weight: 600;
+        color: var(--heading-color);
+      }
+    }
+  }
+}
+
+
+
+// footer 4
+.aximo-subscription-wrap{
+  padding: 80px 0;
+  border-radius: 20px;
+  background-color: #24243A;
+}
+.aximo-footer{
+  &-section4{
+    padding-top: 130px;
+    background-color: #191931;
+    @include max(991px) {
+      padding-top: 100px;
+    }
+    @include max(767px) {
+      padding-top: 80px;
+    }
+  }
+  &-top4{
+    padding: 80px 0;
+  }
+  &-textarea{
+   &.light-one{
+    p{
+      color: var(--light-color3);
+    }
+   }
+   &.light-two{
+    p{
+      color: var(--light-color5);
+    }
+   }
+    
+  }
+}
+
+// footer five{
+  .aximo-footer-section5{
+    .aximo-footer-title {
+      p{
+        color: var(--heading-color4);
+      }
+    }
+    .aximo-footer-menu ul li a{
+      &:hover{
+        color: var(--corn-color);
+      }
+    }
+  }
+
+
+
+// footer six star
+.aximo-footer-top6 {
+  padding: 80px 0 100px;
+  border-top: 1px solid #333333;
+  @include max(991px) {
+    padding: 80px 0;
+  }
+  .aximo-copywright{
+    @include max(991px) {
+      text-align: left!important;
+    }
+  }
+}
+
+.aximo-footer-extra-top {
+  padding: 125px 0 100px;
+  @include max(991px) {
+    padding: 100px 0;
+  }
+  @include max(767px) {
+    padding: 80px 0;
+  }
+}
+
+.aximo-footer-info{
+  &-wrap{
+    gap: 24px;
+    display: grid;
+    
+    margin-top: 80px;
+    grid-template-columns: 1fr 1fr 1fr;
+    @include max(1199px) {
+      grid-template-columns: 1fr 1fr;
+    }
+    @include max(991px) {
+      margin-top: 60px;
+    }
+    @include max(767px) {
+      grid-template-columns: 1fr;
+    }
+  }
+    width: 100%;
+    padding: 25px 15px;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    border-radius: 50px;
+    transition: all 0.4s;
+    color: var(--light-color5)!important;
+    border: 2px solid var(--light-color5);
+    box-shadow: 0 4px 0 0 var(--light-color5);
+    &:hover{
+      background-color: var(--green-color2);
+      border: 2px solid var(--heading-color5);
+    }
+    @include max(991px) {
+      font-size: 20px;
+      padding: 20px 15px;
+    }
+  
+}
+
+// footer v7
+.aximo-footer-info{
+  &-column {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 130px 0 70px;
+    justify-content: space-between;
+    @include max(991px) {
+      padding: 80px 0 50px;
+    }
+    @include max(767px) {
+      padding: 60px 0 30px;
+      display: block;
+    }
+  }
+  &-item{
+    margin-bottom: 30px;
+    &:first-child{
+      @include max(991px) {
+        flex: 0 0 100%;
+      }
+    }
+    h5{
+      font-family: $heading-font7;
+    }
+    p{
+      font-size: 21px;
+      color: var(--heading-color6);
+      @include max(991px) {
+        font-size: 20px;
+      }
+    }
+    a{
+      display: block;
+      font-size: 21px;
+      color: var(--heading-color6);
+      @include max(991px) {
+        font-size: 20px;
+      }
+    }
+  }
+  
+}

@@ -1,0 +1,799 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flowto || Responsive HTML 5 Template</title>
+
+  <link rel="shortcut icon" href="assets/images/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+  <!--- End favicon-->
+
+  <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+  <!-- End google font  -->
+
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/magnific-popup.css">
+  <link rel="stylesheet" href="assets/css/slick.css">
+  <link rel="stylesheet" href="assets/css/animate.css">
+  <link rel="stylesheet" href="assets/css/fontawesome.css">
+
+
+  <!-- Code Editor  -->
+
+  <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="stylesheet" href="assets/css/app.min.css">
+</head>
+
+<body id="body" class="light-mode">
+
+  <div class="flowto-preloader-wrap">
+    <div class="flowto-preloader">
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+  </div>
+
+
+
+  <!-- <div class="flowto-sidemenu-wraper">
+      <div class="flowto-sidemenu-column">
+        <div class="flowto-sidemenu-item">
+          <p>languages support</p>
+          <button class="value-change-btn" id="flowto-ltr-rtl" type="button"><span>ltl</span><span>rtl</span></button>
+          <div class="flowto-open-close-btn">
+            <div class="flowto-rtl-open">
+              <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M13.3473 3.83574C14.0225 1.05475 17.9775 1.05475 18.6527 3.83574C19.0888 5.63222 21.147 6.48476 22.7257 5.52285C25.1696 4.03378 27.9662 6.83045 26.4772 9.27429C25.5152 10.853 26.3678 12.9112 28.1643 13.3473C30.9452 14.0225 30.9452 17.9775 28.1643 18.6527C26.3678 19.0888 25.5152 21.147 26.4772 22.7257C27.9662 25.1696 25.1696 27.9662 22.7257 26.4772C21.147 25.5152 19.0888 26.3678 18.6527 28.1643C17.9775 30.9452 14.0225 30.9452 13.3473 28.1643C12.9112 26.3678 10.853 25.5152 9.2743 26.4772C6.83045 27.9662 4.03379 25.1696 5.52285 22.7257C6.48476 21.147 5.63222 19.0888 3.83574 18.6527C1.05475 17.9775 1.05475 14.0225 3.83574 13.3473C5.63222 12.9112 6.48476 10.853 5.52285 9.27429C4.03378 6.83045 6.83045 4.03378 9.27429 5.52284C10.853 6.48476 12.9112 5.63222 13.3473 3.83574Z" stroke="black" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M20.75 16C20.75 18.6234 18.6234 20.75 16 20.75C13.3766 20.75 11.25 18.6234 11.25 16C11.25 13.3766 13.3766 11.25 16 11.25C18.6234 11.25 20.75 13.3766 20.75 16Z" stroke="black" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </div>
+            <span class="flowto-sidemenu-close">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M6 18L18 6M6 6L18 18" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+            </span>
+          </div>
+        </div>
+
+        <div class="flowto-sidemenu-item">
+          <p>cursor</p>
+          <div class="flowto-cursor-btn">
+            <button class="value-change-btn remove active-bg" type="button"><span>Normal</span></button>
+            <button class="value-change-btn add active-bg" type="button"><span>advanced</span></button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="cursor"></div>
+    <div class="cursor2"></div> -->
+
+
+
+
+
+  <header class="site-header site-header--menu-center flowto-header-section" id="sticky-menu">
+    <div class="container">
+      <nav class="navbar site-navbar">
+        <!-- Brand Logo-->
+        <div class="brand-logo">
+          <a href="index.html">
+            <img src="assets/images/logo/logo-dark.svg" alt="" class="light-version-logo">
+          </a>
+        </div>
+        <div class="menu-block-wrapper">
+          <div class="menu-overlay"></div>
+          <nav class="menu-block" id="append-menu-header">
+            <div class="mobile-menu-head">
+              <div class="go-back">
+                <i class="fa fa-angle-left"></i>
+              </div>
+              <div class="current-menu-title"></div>
+              <div class="mobile-menu-close">&times;</div>
+            </div>
+            <ul class="site-menu-main">
+              <li class="nav-item nav-item-has-children">
+                <a href="#" class="nav-link-item drop-trigger">Demo <i class="fas fa-angle-down"></i></a>
+                <ul class="sub-menu" id="submenu-1">
+                  <li class="sub-menu--item">
+                    <a href="index.html">
+                      <span class="menu-item-text">Mobile banking</span>
+                    </a>
+                  </li>
+                  <li class="sub-menu--item">
+                    <a href="index-02.html">
+                      <span class="menu-item-text">Sale management software</span>
+                    </a>
+                  </li>
+                  <li class="sub-menu--item">
+                    <a href="index-03.html">
+                      <span class="menu-item-text">Digital Agency</span>
+                    </a>
+                  </li>
+                  <li class="sub-menu--item">
+                    <a href="index-04.html">
+                      <span class="menu-item-text">Time Management</span>
+                    </a>
+                  </li>
+                  <li class="sub-menu--item">
+                    <a href="index-05.html">
+                      <span class="menu-item-text">SEO Agency</span>
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a href="about-us.html" class="nav-link-item">About Us</a>
+              </li>
+              <li class="nav-item nav-item-has-children">
+                <a href="#" class="nav-link-item drop-trigger">Pages <i class="fas fa-angle-down"></i></a>
+                <ul class="sub-menu" id="submenu-2">
+                  <li class="sub-menu--item">
+                    <a href="about-us.html">
+                      <span class="menu-item-text">About Us</span>
+                    </a>
+                  </li>
+                  <li class="sub-menu--item">
+                    <a href="pricing.html">
+                      <span class="menu-item-text">Pricing</span>
+                    </a>
+                  </li>
+                  <li class="sub-menu--item nav-item-has-children">
+                    <a href="#" data-menu-get="h3" class="drop-trigger">blog <i class="fas fa-angle-down"></i></a>
+                    <ul class="sub-menu shape-none" id="submenu-3">
+                      <li class="sub-menu--item">
+                        <a href="blog.html">
+                          <span class="menu-item-text">Our Blog</span>
+                        </a>
+                      </li>
+                      <li class="sub-menu--item">
+                        <a href="single-blog.html">
+                          <span class="menu-item-text">blog details</span>
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="sub-menu--item nav-item-has-children">
+                    <a href="#" data-menu-get="h3" class="drop-trigger">Service<i class="fas fa-angle-down"></i>
+                    </a>
+                    <ul class="sub-menu shape-none" id="submenu-4">
+                      <li class="sub-menu--item">
+                        <a href="service.html">
+                          <span class="menu-item-text">service</span>
+                        </a>
+                      </li>
+                      <li class="sub-menu--item">
+                        <a href="single-service.html">
+                          <span class="menu-item-text">service details</span>
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="sub-menu--item nav-item-has-children">
+                    <a href="#" data-menu-get="h3" class="drop-trigger">Team<i class="fas fa-angle-down"></i>
+                    </a>
+                    <ul class="sub-menu shape-none" id="submenu-5">
+                      <li class="sub-menu--item">
+                        <a href="team.html">
+                          <span class="menu-item-text">team</span>
+                        </a>
+                      </li>
+                      <li class="sub-menu--item">
+                        <a href="single-team.html">
+                          <span class="menu-item-text">team details</span>
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="sub-menu--item nav-item-has-children">
+                    <a href="#" data-menu-get="h3" class="drop-trigger">Career<i class="fas fa-angle-down"></i>
+                    </a>
+                    <ul class="sub-menu shape-none" id="submenu-6">
+                      <li class="sub-menu--item">
+                        <a href="career.html">
+                          <span class="menu-item-text">Career</span>
+                        </a>
+                      </li>
+                      <li class="sub-menu--item">
+                        <a href="single-career.html">
+                          <span class="menu-item-text">Career details</span>
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="sub-menu--item nav-item-has-children">
+                    <a href="#" data-menu-get="h3" class="drop-trigger">Portfolio<i class="fas fa-angle-down"></i>
+                    </a>
+                    <ul class="sub-menu shape-none" id="submenu-7">
+                      <li class="sub-menu--item">
+                        <a href="portfolio-grid.html">
+                          <span class="menu-item-text">portfolio gird</span>
+                        </a>
+                      </li>
+                      <li class="sub-menu--item">
+                        <a href="portfolio-classic.html">
+                          <span class="menu-item-text">portfolio classic</span>
+                        </a>
+                      </li>
+                      <li class="sub-menu--item">
+                        <a href="single-portfolio.html">
+                          <span class="menu-item-text">Single Portfolio</span>
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="sub-menu--item nav-item-has-children">
+                    <a href="#" data-menu-get="h3" class="drop-trigger">Utility<i class="fas fa-angle-down"></i>
+                    </a>
+                    <ul class="sub-menu shape-none" id="submenu-8">
+                      <li class="sub-menu--item">
+                        <a href="faq.html">
+                          <span class="menu-item-text">faq</span>
+                        </a>
+                      </li>
+                      <li class="sub-menu--item">
+                        <a href="errors-404.html">
+                          <span class="menu-item-text">Error 404</span>
+                        </a>
+                      </li>
+                      <li class="sub-menu--item">
+                        <a href="integrations.html">
+                          <span class="menu-item-text">integrations</span>
+                        </a>
+                      </li>
+                      <li class="sub-menu--item">
+                        <a href="testimonials.html">
+                          <span class="menu-item-text">testimonials</span>
+                        </a>
+                      </li>
+                      <li class="sub-menu--item">
+                        <a href="coming-soon.html">
+                          <span class="menu-item-text">Coming Soon</span>
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="sub-menu--item nav-item-has-children">
+                    <a href="#" data-menu-get="h3" class="drop-trigger">Account<i class="fas fa-angle-down"></i>
+                    </a>
+                    <ul class="sub-menu shape-none" id="submenu-9">
+                      <li class="sub-menu--item">
+                        <a href="sign-up.html">
+                          <span class="menu-item-text">sign up</span>
+                        </a>
+                      </li>
+                      <li class="sub-menu--item">
+                        <a href="sign-in.html">
+                          <span class="menu-item-text">sign in</span>
+                        </a>
+                      </li>
+                      <li class="sub-menu--item">
+                        <a href="reset-password.html">
+                          <span class="menu-item-text">reset password</span>
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item nav-item-has-children">
+                <a href="#" class="nav-link-item drop-trigger">Blog <i class="fas fa-angle-down"></i></a>
+                <ul class="sub-menu" id="submenu-10">
+                  <li class="sub-menu--item">
+                    <a href="blog.html">
+                      <span class="menu-item-text">Our Blog</span>
+                    </a>
+                  </li>
+                  <li class="sub-menu--item">
+                    <a href="single-blog.html">
+                      <span class="menu-item-text">blog details</span>
+                    </a>
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a href="contact-us.html" class="nav-link-item">Contact Us</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+
+        <div class="header-btn header-btn-l1 ms-auto d-none d-xs-inline-flex">
+          <div class="flowto-header-btn-wrap">
+            <a class="flowto-login-btn" href="sign-up.html">Login</a>
+            <a class="flowto-default-btn flowto-header-btn pill" href="contact-us.html">
+              <span>Get Started</span>
+            </a>
+          </div>
+
+        </div>
+        <!-- mobile menu trigger -->
+        <div class="mobile-menu-trigger light">
+          <span></span>
+        </div>
+        <!--/.Mobile Menu Hamburger Ends-->
+      </nav>
+    </div>
+  </header>
+  <!--End landex-header-section -->
+
+  <div class="flowto-breadcrumb">
+    <div class="container">
+      <h1 class="post__title">Our Services</h1>
+      <nav class="breadcrumbs">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li aria-current="page"> Our Services</li>
+        </ul>
+      </nav>
+
+    </div>
+  </div>
+  <!-- End breadcrumb -->
+
+  <div class="section flowto-section-padding3">
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-3 col-md-6">
+          <div class="flowto-iconbox-wrap border-all bg-hover">
+            <div class="flowto-iconbox-icon icon-box">
+              <svg width="37" height="37" viewBox="0 0 37 37" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M11 22.25V27.875M18.5 22.25V27.875M26 22.25V27.875M1.625 35.375H35.375M1.625 14.75H35.375M1.625 9.125L18.5 1.625L35.375 9.125M3.5 14.75H33.5V35.375H3.5V14.75Z" stroke="#3147FF" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+            </div>
+            <div class="flowto-iconbox-data">
+              <h5>Investment Banks</h5>
+              <p>Save time & more efficiently that acts as an intermediary in large and complex financial transactions.</p>
+              <a class="flowto-iconbox-btn" href="single-service.html">
+                <svg width="22" height="18" viewBox="0 0 22 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M13.1667 1.4165L20.75 8.99984M20.75 8.99984L13.1667 16.5832M20.75 8.99984L1.25 8.99984" stroke="#121212" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-3 col-md-6">
+          <div class="flowto-iconbox-wrap border-all bg-hover">
+            <div class="flowto-iconbox-icon icon-box">
+              <svg width="37" height="21" viewBox="0 0 37 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M20.2917 1.5415H34.625M34.625 1.5415V15.8748M34.625 1.5415L20.2917 15.8748L13.125 8.70817L2.375 19.4582" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+            </div>
+            <div class="flowto-iconbox-data">
+              <h5>Sales & Trading</h5>
+              <p>Sales and trading refer to the division of an investment bank, quickly sell and trade stocks, bond, and derivative.</p>
+              <a class="flowto-iconbox-btn" href="single-service.html">
+                <svg width="22" height="18" viewBox="0 0 22 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M13.1667 1.4165L20.75 8.99984M20.75 8.99984L13.1667 16.5832M20.75 8.99984L1.25 8.99984" stroke="#121212" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-3 col-md-6">
+          <div class="flowto-iconbox-wrap border-all bg-hover">
+            <div class="flowto-iconbox-icon icon-box">
+              <svg width="44" height="49" viewBox="0 0 44 49" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M24.5 19.1963V1.69629L2 29.1963H19.5L19.5 46.6963L42 19.1963L24.5 19.1963Z" stroke="#1AE5BE" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+            </div>
+            <div class="flowto-iconbox-data">
+              <h5>Asset & Hedge funds</h5>
+              <p>A hedge fund is a collection of supervised investment that provide high returns through very risky investment.</p>
+              <a class="flowto-iconbox-btn" href="single-service.html">
+                <svg width="22" height="18" viewBox="0 0 22 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M13.1667 1.4165L20.75 8.99984M20.75 8.99984L13.1667 16.5832M20.75 8.99984L1.25 8.99984" stroke="#121212" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-3 col-md-6">
+          <div class="flowto-iconbox-wrap border-all bg-hover">
+            <div class="flowto-iconbox-icon icon-box">
+              <svg width="33" height="37" viewBox="0 0 33 37" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M31.5 9.125L16.5 1.625L1.5 9.125M31.5 9.125L16.5 16.625M31.5 9.125V27.875L16.5 35.375M16.5 16.625L1.5 9.125M16.5 16.625V35.375M1.5 9.125L1.5 27.875L16.5 35.375" stroke="white" stroke-width="3" stroke-linejoin="round" />
+              </svg>
+            </div>
+            <div class="flowto-iconbox-data">
+              <h5>Mortgage Loans</h5>
+              <p>This is a very simple contract between you and a lender that gives the lender the right to take your property.</p>
+              <a class="flowto-iconbox-btn" href="single-service.html">
+                <svg width="22" height="18" viewBox="0 0 22 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M13.1667 1.4165L20.75 8.99984M20.75 8.99984L13.1667 16.5832M20.75 8.99984L1.25 8.99984" stroke="#121212" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xl-3 col-md-6">
+          <div class="flowto-iconbox-wrap border-all bg-hover">
+            <div class="flowto-iconbox-icon icon-box">
+              <svg width="37" height="37" viewBox="0 0 37 37" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M15.3587 4.09495C16.1582 0.801681 20.8418 0.801683 21.6413 4.09496C22.1578 6.22237 24.5952 7.23195 26.4647 6.09284C29.3587 4.32948 32.6705 7.64132 30.9072 10.5353C29.768 12.4049 30.7776 14.8422 32.905 15.3587C36.1983 16.1582 36.1983 20.8418 32.905 21.6413C30.7776 22.1578 29.768 24.5951 30.9072 26.4647C32.6705 29.3587 29.3587 32.6705 26.4647 30.9072C24.5952 29.768 22.1578 30.7776 21.6413 32.905C20.8418 36.1983 16.1582 36.1983 15.3587 32.905C14.8422 30.7776 12.4049 29.768 10.5353 30.9072C7.64132 32.6705 4.32948 29.3587 6.09284 26.4647C7.23195 24.5951 6.22237 22.1578 4.09496 21.6413C0.801683 20.8418 0.801681 16.1582 4.09495 15.3587C6.22237 14.8422 7.23195 12.4049 6.09284 10.5353C4.32948 7.64132 7.64132 4.32948 10.5353 6.09284C12.4049 7.23195 14.8422 6.22237 15.3587 4.09495Z" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+                <path d="M24.125 18.5C24.125 21.6066 21.6066 24.125 18.5 24.125C15.3934 24.125 12.875 21.6066 12.875 18.5C12.875 15.3934 15.3934 12.875 18.5 12.875C21.6066 12.875 24.125 15.3934 24.125 18.5Z" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+
+            </div>
+            <div class="flowto-iconbox-data">
+              <h5>Product Development</h5>
+              <p>This is a very simple contract between you and a lender that gives the lender the right to take your property.</p>
+              <a class="flowto-iconbox-btn" href="single-service.html">
+                <svg width="22" height="18" viewBox="0 0 22 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M13.1667 1.4165L20.75 8.99984M20.75 8.99984L13.1667 16.5832M20.75 8.99984L1.25 8.99984" stroke="#121212" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-3 col-md-6">
+          <div class="flowto-iconbox-wrap border-all bg-hover">
+            <div class="flowto-iconbox-icon icon-box">
+              <svg width="37" height="37" viewBox="0 0 37 37" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12.875 31.625V20.375C12.875 18.3039 11.1961 16.625 9.125 16.625H5.375C3.30393 16.625 1.625 18.3039 1.625 20.375V31.625C1.625 33.6961 3.30393 35.375 5.375 35.375H9.125C11.1961 35.375 12.875 33.6961 12.875 31.625ZM12.875 31.625V12.875C12.875 10.8039 14.5539 9.125 16.625 9.125H20.375C22.4461 9.125 24.125 10.8039 24.125 12.875V31.625M12.875 31.625C12.875 33.6961 14.5539 35.375 16.625 35.375H20.375C22.4461 35.375 24.125 33.6961 24.125 31.625M24.125 31.625V5.375C24.125 3.30393 25.8039 1.625 27.875 1.625H31.625C33.6961 1.625 35.375 3.30393 35.375 5.375V31.625C35.375 33.6961 33.6961 35.375 31.625 35.375H27.875C25.8039 35.375 24.125 33.6961 24.125 31.625Z" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+
+            </div>
+            <div class="flowto-iconbox-data">
+              <h5>Digital Marketing</h5>
+              <p>Improve your presence, and create trust in the eyes of your customers with digitally for the best marketing.</p>
+              <a class="flowto-iconbox-btn" href="single-service.html">
+                <svg width="22" height="18" viewBox="0 0 22 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M13.1667 1.4165L20.75 8.99984M20.75 8.99984L13.1667 16.5832M20.75 8.99984L1.25 8.99984" stroke="#121212" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-3 col-md-6">
+          <div class="flowto-iconbox-wrap border-all bg-hover">
+            <div class="flowto-iconbox-icon icon-box">
+              <svg width="37" height="37" viewBox="0 0 37 37" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M11 26L16.3975 20.6025M16.3975 20.6025C17.4154 21.6204 18.8217 22.25 20.375 22.25C23.4816 22.25 26 19.7316 26 16.625C26 13.5184 23.4816 11 20.375 11C17.2684 11 14.75 13.5184 14.75 16.625C14.75 18.1783 15.3796 19.5846 16.3975 20.6025ZM35.375 18.5C35.375 27.8198 27.8198 35.375 18.5 35.375C9.18019 35.375 1.625 27.8198 1.625 18.5C1.625 9.18019 9.18019 1.625 18.5 1.625C27.8198 1.625 35.375 9.18019 35.375 18.5Z" stroke="white" stroke-width="3" stroke-linecap="round" />
+              </svg>
+
+            </div>
+            <div class="flowto-iconbox-data">
+              <h5>SEO Services</h5>
+              <p>Search engine optimization services aim to fill your sales channel with relevant. For the digital world SEO needs.</p>
+              <a class="flowto-iconbox-btn" href="single-service.html">
+                <svg width="22" height="18" viewBox="0 0 22 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M13.1667 1.4165L20.75 8.99984M20.75 8.99984L13.1667 16.5832M20.75 8.99984L1.25 8.99984" stroke="#121212" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-3 col-md-6">
+          <div class="flowto-iconbox-wrap border-all bg-hover">
+            <div class="flowto-iconbox-icon icon-box">
+              <svg width="37" height="37" viewBox="0 0 37 37" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M14.2812 27.875L12.875 33.5L11 35.375H26L24.125 33.5L22.7188 27.875M1.625 20.375H35.375M5.375 27.875H31.625C33.6961 27.875 35.375 26.1961 35.375 24.125V5.375C35.375 3.30393 33.6961 1.625 31.625 1.625L5.375 1.625C3.30393 1.625 1.625 3.30393 1.625 5.375L1.625 24.125C1.625 26.1961 3.30393 27.875 5.375 27.875Z" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+
+            </div>
+            <div class="flowto-iconbox-data">
+              <h5>Web Analysis</h5>
+              <p>Any business that has a great website or online presence for the must needs good web and hosting analytics. </p>
+              <a class="flowto-iconbox-btn" href="single-service.html">
+                <svg width="22" height="18" viewBox="0 0 22 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M13.1667 1.4165L20.75 8.99984M20.75 8.99984L13.1667 16.5832M20.75 8.99984L1.25 8.99984" stroke="#121212" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End section -->
+
+  <div class="section flowto-section-padding3 dark-bg">
+    <div class="container">
+      <div class="flowto-section-title center light">
+        <h2 class="m-0">Get started for free & add a plan later</h2>
+      </div>
+      <div class="pricing-btn">
+        <label>Billed monthly</label>
+        <div class="toggle-btn">
+          <input class="form-check-input btn-toggle price-deck-trigger" type="checkbox" id="flexSwitchCheckDefault" data-pricing-trigger data-target="#table-price-value" checked>
+        </div>
+        <label>Billed annually</label>
+      </div>
+      <div class="row" id="table-price-value" data-pricing-dynamic data-value-active="monthly">
+        <div class="col-xl-4 col-md-6">
+          <div class="flowto-pricing-wrap">
+            <div class="flowto-pricing-header">
+              <h6>Basic</h6>
+            </div>
+            <div class="flowto-pricing-price">
+              <h2>$</h2>
+              <div class="flowto-price dynamic-value" data-active="19" data-monthly="19" data-yearly="39"></div>
+              <p class="dynamic-value" data-active="/Billed monthly" data-monthly="/Billed monthly" data-yearly="/Billed Yearly"></p>
+            </div>
+            <div class="flowto-pricing-description">
+              <p>Powerful software to help growing sales & organized & set up simple sales processes</p>
+            </div>
+            <div class="flowto-pricing-body">
+              <ul>
+                <li><img src="assets/images/v2/check.png" alt="">Live chat widget for website</li>
+                <li><img src="assets/images/v2/check.png" alt="">All basic CRM features</li>
+                <li><img src="assets/images/v2/check.png" alt="">Up to 5,000 contacts</li>
+                <li><img src="assets/images/v2/check.png" alt="">Flow base chatbot</li>
+                <li><img src="assets/images/v2/check.png" alt="">24/7 Email Support</li>
+              </ul>
+            </div>
+            <a class="flowto-pricing-btn" href="pricing.html">Choose The Plan</a>
+          </div>
+        </div>
+        <div class="col-xl-4 col-md-6">
+          <div class="flowto-pricing-wrap active">
+            <div class="flowto-pricing-header">
+              <h6>Standard</h6>
+            </div>
+            <div class="flowto-pricing-price">
+              <h2>$</h2>
+              <div class="flowto-price dynamic-value" data-active="49" data-monthly="49" data-yearly="69"></div>
+              <p class="dynamic-value" data-active="/Billed monthly" data-monthly="/Billed monthly" data-yearly="/Billed Yearly"></p>
+            </div>
+            <div class="flowto-pricing-description">
+              <p>Everything you need to manage multiple sales teams and grow revenue like a pro</p>
+            </div>
+            <div class="flowto-pricing-body">
+              <ul>
+                <li><img src="assets/images/v2/check2.png" alt="">Multiple sales pipelines</li>
+                <li><img src="assets/images/v2/check2.png" alt="">Create, manage & eSign documents</li>
+                <li><img src="assets/images/v2/check2.png" alt="">AI-powered deal insights </li>
+                <li><img src="assets/images/v2/check2.png" alt="">Up to 3,000 bot sessions/month</li>
+                <li><img src="assets/images/v2/check2.png" alt="">Sales teams & territory management</li>
+              </ul>
+            </div>
+            <a class="flowto-pricing-btn active" href="pricing.html">Choose The Plan</a>
+          </div>
+        </div>
+        <div class="col-xl-4 col-md-6">
+          <div class="flowto-pricing-wrap">
+            <div class="flowto-pricing-header">
+              <h6>Enterprise</h6>
+            </div>
+            <div class="flowto-pricing-price">
+              <h2>$</h2>
+              <div class="flowto-price dynamic-value" data-active="89" data-monthly="89" data-yearly="99"></div>
+              <p class="dynamic-value" data-active="/Billed monthly" data-monthly="/Billed monthly" data-yearly="/Billed Yearly"></p>
+            </div>
+            <div class="flowto-pricing-description">
+              <p>Manage all sales channels with advanced customization, governance, and control</p>
+            </div>
+            <div class="flowto-pricing-body">
+              <ul>
+                <li><img src="assets/images/v2/check.png" alt="">Custom modules</li>
+                <li><img src="assets/images/v2/check.png" alt="">User permission & visibility settings</li>
+                <li><img src="assets/images/v2/check.png" alt="">AI-powered contact scoring</li>
+                <li><img src="assets/images/v2/check.png" alt="">Up to 5,000 bot sessions/month</li>
+                <li><img src="assets/images/v2/check.png" alt="">Data import & easy customization</li>
+              </ul>
+            </div>
+            <a class="flowto-pricing-btn" href="pricing.html">Choose The Plan</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End Section -->
+
+  <div class="section flowto-section-padding3">
+    <div class="container">
+      <div class="flowto-section-title">
+        <div class="row">
+          <div class="col-lg-7">
+            <h2>Hear what our customers say</h2>
+          </div>
+          <div class="col-lg-5 d-flex align-items-center">
+            <p>We provide excellent customer service. We have loyal customers all over the world. We take pride in working with outcome-focused client businesses.</p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xl-6">
+          <div class="flowto-testimonial-wrap testimonial-grid">
+            <div class="flowto-testimonial-thumb">
+              <img src="assets/images/testimonial/t_1.png" alt="">
+            </div>
+            <div class="flowto-testimonial-content">
+              <div class="flowto-testimonial-rating">
+                <ul>
+                  <li><img src="assets/images/svg/rating.svg" alt=""></li>
+                  <li><img src="assets/images/svg/rating.svg" alt=""></li>
+                  <li><img src="assets/images/svg/rating.svg" alt=""></li>
+                  <li><img src="assets/images/svg/rating.svg" alt=""></li>
+                  <li><img src="assets/images/svg/rating.svg" alt=""></li>
+                </ul>
+              </div>
+              <div class="flowto-testimonial-data">
+                <p>Amazing agency! The whole SEO team is knowledgeable, friendly and incredibly helpful. I am very much satisfied with their work.</p>
+                <h6>Alex Bury from Canada</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-6">
+          <div class="flowto-testimonial-wrap testimonial-grid">
+            <div class="flowto-testimonial-thumb">
+              <img src="assets/images/testimonial/t_2.png" alt="">
+            </div>
+            <div class="flowto-testimonial-content">
+              <div class="flowto-testimonial-rating">
+                <ul>
+                  <li><img src="assets/images/svg/rating.svg" alt=""></li>
+                  <li><img src="assets/images/svg/rating.svg" alt=""></li>
+                  <li><img src="assets/images/svg/rating.svg" alt=""></li>
+                  <li><img src="assets/images/svg/rating.svg" alt=""></li>
+                  <li><img src="assets/images/svg/rating.svg" alt=""></li>
+                </ul>
+              </div>
+              <div class="flowto-testimonial-data">
+                <p>I've experienced great support from the SEO team. I'm a few months in and starting to see positive results. I would definitely recommend it!</p>
+                <h6 class="m-0">Max Smith from USA</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End section -->
+
+  <div class="section blue-bg flowto-section-padding">
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-7 col-lg-7">
+          <div class="flowto-default-content light">
+            <h2>Get the latest information from us</h2>
+            <div class="flowto-extra-mt">
+              <div class="flowto-iconlist iconlist-white small-width">
+                <ul>
+                  <li><img src="assets/images/svg/check-green3.svg" alt="">24/7 Support</li>
+                  <li><img src="assets/images/svg/check-green3.svg" alt="">Cancel Anytime</li>
+                  <li><img src="assets/images/svg/check-green3.svg" alt="">Free Forever</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-xl-4 col-lg-5 offset-xl-1 d-flex align-items-center">
+          <div class="flowto-subscribe-two flowto-inner-cta">
+            <form action="#">
+              <input type="email" placeholder="Enter your email">
+              <button class="flowto-outline-btn" id="flowto-subscription-btn" type="submit">
+                <span>Subscribe Now</span>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- End section -->
+
+
+
+  <footer class="flowto-footer-section main-footer white-bg">
+    <div class="container">
+      <div class="flowto-footer-top">
+        <div class="row">
+          <div class="col-xl-4 col-lg-12">
+            <div class="flowto-footer-textarea">
+              <a href="">
+                <img src="assets/images/logo/logo-dark.svg" alt="">
+              </a>
+              <p>We are a company that plays a critical role in helping businesses create digital products. Users can use our products to build their websites.</p>
+            </div>
+          </div>
+          <div class="col-xl-3 col-md-4">
+            <div class="flowto-footer-menu extar-margin">
+              <div class="flowto-footer-title">
+                <p>Navigation</p>
+              </div>
+              <ul>
+                <li><a href="">Demos</a></li>
+                <li><a href="">About Us</a></li>
+                <li><a href="">Services</a></li>
+                <li><a href="">Pages</a></li>
+                <li><a href="">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-xl-2 col-md-4">
+            <div class="flowto-footer-menu">
+              <div class="flowto-footer-title">
+                <p>Utility pages</p>
+              </div>
+              <ul>
+                <li><a href="">Instructions</a></li>
+                <li><a href="">Style guide</a></li>
+                <li><a href="">Licenses</a></li>
+                <li><a href="">404 Not found</a></li>
+                <li><a href="">Password protected</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-xl-3 col-md-4">
+            <div class="flowto-footer-menu extar-margin">
+              <div class="flowto-footer-title">
+                <p>Resources</p>
+              </div>
+              <ul>
+                <li><a href="">Support</a></li>
+                <li><a href="">Privacy policy</a></li>
+                <li><a href="">Terms & Conditions</a></li>
+                <li><a href="">Strategic finance</a></li>
+                <li><a href="">Video guide</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="flowto-footer-bottom">
+        <div class="flowto-social-icon order-md-2">
+          <ul>
+            <li>
+              <a href="https://twitter.com/" target="_blank">
+                <i class="fab fa-angle-right"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://facebook.com/" target="_blank">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/" target="_blank">
+                <i class="fab fa-instagram"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/" target="_blank">
+                <i class="fab fa-linkedin"></i>
+              </a>
+            </li>
+            <li>
+              <a href="https://github.com/" target="_blank">
+                <i class="fab fa-github"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="flowto-copywright">
+          <p> &copy;Copyright 2024, All Rights Reserved by favdevs</p>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- scripts -->
+  <script src="assets/js/jquery-3.6.0.min.js"></script>
+  <script src="assets/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/menu/menu.js"></script>
+  <script src="assets/js/isotope.pkgd.min.js"></script>
+  <script src="assets/js/jquery.magnific-popup.min.js"></script>
+  <script src="assets/js/slick.js"></script>
+  <script src="assets/js/countdown.js"></script>
+  <script src="assets/js/wow.min.js"></script>
+  <script src="assets/js/faq.js"></script>
+  <!-- <script src="assets/js/advanced-cursor.js"></script> -->
+  <!-- <script src="assets/js/dark.js"></script> -->
+
+  <script src="assets/js/app.js"></script>
+
+
+</body>
+</html>
